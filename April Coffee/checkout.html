@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>結帳</title>
+</head>
+<body>
+	<h1>璦玻珥咖啡 購物車結帳</h1>
+	<form action="process_checkout.php" method="post">
+		<label for="name">您的姓名:</label>
+		<input type="text" id="name" name="name" required><br>
+		<label for="email">信箱:</label>
+		<input type="email" id="email" name="email" required><br>
+		<label for="credit_card">Credit Card Number:</label>
+		<input type="text" id="credit_card" name="credit_card" required><br>
+		<label for="exp_date">Expiration Date:</label>
+		<input type="month" id="exp_date" name="exp_date" required><br>
+		<label for="cvv">CVV:</label>
+		<input type="text" id="cvv" name="cvv" required><br>
+		<input type="submit" value="Submit Order">
+	</form>
+</body>
+</html>
